@@ -1,0 +1,49 @@
+body,h1, img,p, h3{
+	margin:0px;
+	padding:0px;
+} 
+.h1{
+	font-family:times;
+	height:20px;
+	color:green;
+	background-color:yellow;
+	
+}
+.team-member{
+	background-color:yellow;
+}
+.team-member:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.team{
+	width:33.33%;
+	float:left;
+	
+}
+.team img{
+	height:220px;
+	width:220px;
+	border-radius:45%;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
+.team h3{
+	font-family:dailog;
+	color:red;
+	text-align:center;
+	font-size:bold;	
+	
+}
+.team p{
+	text-align:center;
+	width:70%;
+	color:green;
+	
+	font-size:15px;
+	margin: 20px auto;
+	
+	
+}
